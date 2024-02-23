@@ -1,0 +1,44 @@
+.Jacob-Paulaner {
+    padding: 100px 60px;
+}
+.Jacob-Paulaner__row {
+    display: flex;
+    gap: 60px;
+}
+.Jacob-Paulaner__row-desc {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.Jacob-Paulaner__row-desc-cta {
+    margin-top: -10;
+    font-size: 18px;
+    line-height: 27px;
+    color: #118DA8;
+}
+
+.arrow {
+    transform: rotate(-90deg);
+    width: 112px;
+    height: 112px;
+    
+}
+
+.Jacob-Paulaner-name {
+    margin-top: -30px;
+    margin-bottom: 28px;
+
+    font-size: 65px;
+    line-height: 79.2px;
+    letter-spacing: 2.88;
+}
+.Jacob-Paulaner-desc {
+    font-size: 22px;
+    line-height: 33px;
+    color: rgb(255, 255, 255, 0.7);
+}
+
+.Jacob-Paulaner__row-img {
+    img {
+        border-radius: 12px;
+    }
+}

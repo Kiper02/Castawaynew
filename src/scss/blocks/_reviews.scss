@@ -1,0 +1,30 @@
+.reviews {
+    padding: 100px 50px;
+}
+
+.rewiews-card_wrapp {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 16px;
+}
+
+.reviews-card {
+    padding: 54px 51px 50px 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    border-radius: 32px;
+    background-color: black;
+}
+
+.reviews-card__text {
+    font-size: 36px;
+    line-height: 43.2px;
+}
+
+.reviews-card-profile {
+    font-size: 24px;
+    line-height: 28.8px;
+    color: rgb(255, 255, 255, 0.7);
+}

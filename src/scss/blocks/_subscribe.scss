@@ -1,0 +1,76 @@
+.subscribe {
+    padding: 100px 50px;
+}
+
+.block__subscribe {
+    position: relative;
+    display: flex;
+    gap: 76px;
+    padding-bottom: 75px;
+
+    border-radius: 32px;
+    background-color: black;
+}
+
+.block__subscribe::before {
+    content: '';
+    position: absolute;
+    bottom: -18px;
+    left: -25px;
+    width: 100px;
+    height: 100px;
+
+    transform: rotate(-90deg);
+
+    background-image: url('./../img/header/header-img-svg.svg');
+    background-repeat: no-repeat;
+}
+
+.block__subscribe-text {
+    padding: 60px 85px 60px 151px;
+}
+.block__subscribe-text-email {
+    font-size: 18px;
+    line-height: 27px;
+    color: #118DA8;
+}
+.block__subscribe-text-subscribe {
+    font-size: 72px;
+    line-height: 79.2px;
+    letter-spacing: 2.88px;
+}
+
+.block__subscribe-form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+
+}
+
+.input {
+    width: 522px;
+    height: 82px;
+    margin-bottom: 20px;
+    padding-left: 19px;
+
+    border-radius: 6px;
+    background-color: #191919;
+}
+
+
+.input::placeholder {
+    padding-left: 19px;
+    color: rgb(255, 255, 255, 0.7);
+}
+
+.subscribe-btn {
+    padding: 10px 15px;
+    width: 87px;
+    height: 48px;
+
+    border-radius: 6px;
+    background-color: #118DA8;
+    font-size: 15px;
+    line-height: 28.8px;
+    color: rgb(255, 255, 255, 0.7);
+}

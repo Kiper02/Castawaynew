@@ -1,0 +1,35 @@
+.footer {
+    padding: 100px 50px;
+    font-size: 17px;
+    line-height: 27px;
+    color: #fff;
+}
+
+.footer-wrapp {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__logo-social {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer__social {
+    display: flex;
+    gap: 10px;
+}
+
+.list__footer-header  li{
+    margin-top: 10px;
+}
+
+.list__footer li{
+    margin-top: 10px;
+}
+
+.footer__img {
+    display: flex;
+    gap: 17px;
+}
